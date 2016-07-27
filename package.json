@@ -1,0 +1,26 @@
+{
+  "name": "restaurant-widget",
+  "version": "0.0.1",
+  "description": "restaurant wiget",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisterAbet/restaurant-widget.git"
+  },
+  "author": "VSerge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisterAbet/restaurant-widget/issues"
+  },
+  "homepage": "https://github.com/MisterAbet/restaurant-widget#readme",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-less": "^0.11.4"
+  }
+}
