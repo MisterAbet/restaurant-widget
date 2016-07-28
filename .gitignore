@@ -29,5 +29,7 @@ _ReSharper*/
 [Tt]est[Rr]esult*
 node_modules/*
 bower_components/*
+dist/*
+src/bower_components/*
 restaurant-widget.sublime-project
 restaurant-widget.sublime-workspace
