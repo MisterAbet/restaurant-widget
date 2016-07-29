@@ -50,7 +50,6 @@ require [
   'routes'
   'chaplin'
   'ratchet'
-  'fastclick'
 ], (
   Application
   routes
@@ -65,3 +64,5 @@ require [
         pushState: false
 
     _.delay app, 1000
+
+  init()

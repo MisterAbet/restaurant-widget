@@ -2,8 +2,23 @@
 <html>
 <head>
 	<title>Restaurant widget</title>
+	<!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="bower_components/modernizr/feature-detects/css-filters.js"></script>
+    <!-- endbuild -->
+    
+	<!-- Need for old android browsers -->
+    <!-- build:js scripts/vendor/customevent-polyfill.js -->
+	<script src="bower_components/customevent-polyfill/customevent-polyfill.js"></script>
+	<!-- endbuild -->
+
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
 </head>
 <body>
+<!-- build:js scripts/main.js -->
 <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+<!-- endbuild -->
 </body>
 </html>

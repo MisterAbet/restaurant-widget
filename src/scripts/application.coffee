@@ -15,6 +15,7 @@ define [
     title: 'Restaurant widget'
     
     start: ->
+      console.log 'Application start'
       # ImgCache.options.debug = true
       cacheInitOk = ()->
         console.log "ImgCacheInitOk"

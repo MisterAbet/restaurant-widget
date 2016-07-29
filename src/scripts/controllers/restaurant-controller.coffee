@@ -16,4 +16,5 @@ define [
     showSpinner: true
 
     show: (params, route) ->
+      console.log 'Controller show'
       null
